@@ -1,0 +1,130 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+/* as of 9/12/2018 @ 11:20am */
+
+body {
+  font-family: open sans; sans-serif;
+  font-size: 16px;
+}
+
+
+
+
+
+
+.main-container {
+  background-color: #ffffff;
+  margin: 0 auto;
+}
+
+.container-app-name {
+  background-color: rgba(90, 200, 250, 0.4);
+  margin: 0 auto;
+  width: 420px;
+  margin-top: 10px;
+  padding-top: 20px;
+}
+
+.arrow-left {
+  float: left;
+  margin-top: 2px;
+  padding-left: 8px;
+  text-align: left;
+  width: 10%;
+  color: blue;
+  font-size: 140%;
+  font-weight: 300;
+}
+
+.app-name {
+  float: center;
+  padding-top: 2px;
+  font-family: Josefin Sans; sans-serif;
+  margin: 0 auto;
+  padding-left: 140px;
+  color: orange;
+  font-size: 190%;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.menu {
+  float: right;
+  margin-top: 6px;
+  text-align: left;
+  width: 10%;
+  padding-right: 60px;
+  color: blue;
+  font-size: 100%;
+  font-weight: 500;
+}
+
+.container-current-stop {
+  background-color: rgba(255, 204, 0, 0.25);
+  margin: 0 auto;
+  padding: 30px 0px 0px 0px;
+  text-align: center;
+  width: 420px;
+
+}
+
+.container-bus-stop-headings {
+  background-color: #ffffff;
+  color: #FF9500;
+  margin:0 auto;
+  width: 420px;
+  padding: 22px 0px 22px 0px;
+  border-bottom: 0.5px solid #BCBBC1;
+}
+
+.container-bus-list {
+  background-color: #ffffff;
+  border-bottom: 0.5px solid #BCBBC1;
+  line-height: 120%;
+}
+
+
+ul {
+  /* display: inline-block; */
+  padding: 10px;
+}
+
+li {
+  display: inline-block;
+  text-align: center;
+  padding: 2px;
+  width: 130px;
+}
+
+h1 {
+ font-size: 140%;
+ font-weight: 400;
+ padding-top: 4px;
+}
+
+ h2 {
+  font-size: 115%;
+  font-weight: 700;
+}
+
+ h3 {
+  font-size: 100%;
+  font-weight: 400;
+}
+
+h4 {
+  font-size: 80%;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-style: italic;
+  color: green;
+}
+
+h5 {
+  font-size: 90%;
+  text-align: center;
+  font-weight: normal;
+  padding-bottom: 4px;
+}
