@@ -2,21 +2,20 @@
   box-sizing: border-box;
 }
 
-/* as of 9/12/2018 @ 11:20am */
+/* as of 9/14/2018 @ 11:20am */
+/* BLAH BLAH BLAH */
+
 
 body {
   font-family: open sans; sans-serif;
-  font-size: 16px;
+  font-size: 12px;
 }
 
-
-
-
-
-
-.main-container {
-  background-color: #ffffff;
-  margin: 0 auto;
+.status-bar {
+    display: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 .container-app-name {
@@ -85,6 +84,17 @@ body {
   line-height: 120%;
 }
 
+.left {
+  width: 5%;
+}
+
+.center {
+  width: 75%;
+}
+
+.right {
+  width: 15%;
+}
 
 ul {
   /* display: inline-block; */
@@ -93,29 +103,27 @@ ul {
 
 li {
   display: inline-block;
-  text-align: center;
-  padding: 2px;
-  width: 130px;
+  padding: 1px;
 }
+
 
 h1 {
  font-size: 140%;
  font-weight: 400;
- padding-top: 4px;
 }
 
- h2 {
-  font-size: 115%;
-  font-weight: 700;
+h2 {
+  font-size: 125%;
+  font-weight: 800;
 }
 
- h3 {
+h3 {
   font-size: 100%;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 h4 {
-  font-size: 80%;
+  font-size: 55%;
   font-weight: 400;
   text-transform: uppercase;
   font-style: italic;
@@ -123,8 +131,18 @@ h4 {
 }
 
 h5 {
-  font-size: 90%;
+  font-size: 60%;
+  font-style: italic;
   text-align: center;
-  font-weight: normal;
+  font-weight: 200;
+  padding-top: 8px;
   padding-bottom: 4px;
+  color: blue;
+}
+
+h6 {
+  font-size: 70%;
+  font-style: italic;
+  text-align: center;
+  color: blue;
 }
