@@ -6,10 +6,16 @@
     <link rel="stylesheet" href="css/reset1.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Open+Sans" rel="stylesheet">
 
   </head>
 
   <body>
+    <br>
+    <ul class="status-bar"><img src="images/status-bar.jpg">
+    </ul>
+
       <ul class="container-app-name">
             <li class="arrow-left">
               <i class="fa fa-chevron-left"></i></li>
@@ -19,93 +25,72 @@
 
       <section class="container-current-stop">
             <hr style="height:4px; visibility:hidden;" />
-            <h5>BUS STOP: #162</h5>
-            <h1>Washington / State Sts.</h1>
+            <h5>Current Stop:</h5>
+            <h1>Washington/State Sts. (#162)</h1>
+            <br>
+            <h5>xx bus routes servicing this stop</h5>
             <hr style="height:26px; visibility:hidden;" />
 
         <ul class="container-bus-stop-headings">
-              <li><h1><strong>Route</strong></h1></li>
-              <li><h1><strong>Destination</strong></h1></li>
-              <li><h1><strong>Arrival</strong></h1></li>
+              <li class="left"><h1>Route</h1></li>
+              <li class="center"><h1>Destination</h1></li>
+              <li class="right"><h1>Arrival</h1></li>
         </ul>
 
         <ul class="container-bus-list">
-               <li><h2>60</h2></li>
-               <li><h3>Randolph/
-                 <br>
-                 Harbor Dr</h3></li>
-               <li><h3>Every
-                 <br> 20 mins.</h3></li>
-               <li><h4><em>Eastbound</em></h4></li>
+               <li class="left"><h2>60</h2><h4>Eastbound</h4></li>
+               <li class="center"><h3>Randolph/Harbor Dr</h3></li>
+               <li class="right"><h2>1m</h2><h4>Arrives every 20 mins.</h4></li>
         </ul>
 
         <ul class="container-bus-list">
-                <li><h2><strong>124</strong></h2></li>
-                <li><h3>Navy
-                  <br> Pier</h3></li>
-                <li><h3>Every
-                  <br> 10 mins.</h3></li>
-                <li><h4><em>Eastbound</em></h4></li>
+               <li class="left"><h2>124</h2><h4>Eastbound</h4></li>
+               <li class="center"><h3>Navy Pier</h3></li>
+               <li class="right">
+                  <h4>Every 10 mins.</h4></li>
         </ul>
 
         <ul class="container-bus-list">
-               <li><h2><strong>151</strong></h2></li>
-               <li><h3>Devon/
-                 <br> Clark</h3></li>
-               <li><h3>Every
-                 <br> 16 mins.</h3></li>
-               <li><h4><em>Northbound</em></h4></li>
+               <li class="left"><h2>151</h2><h4>Northbound</h4></li>
+               <li class="center"><h3>Devon/Clark</h3></li>
+               <li class="right"><h3>Every 16 mins.</h3></li>
         </ul>
 
         <ul class="container-bus-list">
-               <li><h2><strong>J14</strong></h2></li>
-               <li><h3>103rd/
-                 <br> Stony Island</h3></li>
-               <li><h3>Every
-                 <br>  15 mins.</h3></li>
-               <li><h4><em>Southbound</em></h4></li>
+               <li class="left"><h2>J14</h2><h4>Southbound</h4></li>
+               <li class="center"><h3>103rd/Stony Island</h3></li>
+               <li class="right"><h3>Every 15 mins.</h3></li>
           </ul>
 
             <ul class="container-bus-list">
-               <li><h2><strong>124</strong></h2></li>
-               <li><h3>Navy
-                 <br> Pier</h3></li>
-               <li><h3>Every
-                 <br>  10 mins.</h3></li>
-               <li><h4>Southbound</h4></li>
+               <li class="left"><h2>124</h2><h4>Southbound</h4></li>
+               <li class="center"><h3>Navy Pier</h3></li>
+               <li class="right"><h3>Every 10 mins.</h3></li>
             </ul>
-
 
             <ul class="container-bus-list">
-                <li><h2><strong>6X</strong></h2></li>
-                <li><h3>Jackson Park
-                  <br> Express</h3></li>
-                <li><h3>N/A</h3></li>
-                <li><h4><font color="red">REROUTE</font></h4></li>
+               <li class="left"><h2>6X</h2><h4><font color="red">REROUTE</font></h4></li>
+               <li class="center"><h3>Jackson Park Express</h3></li>
+               <li class="right"><h3>N/A</h3></li>
             </ul>
 
            <ul class="container-bus-list">
-               <li><h2><strong>4</strong></h2></li>
-               <li><h3><s>Cottage Grove</s></h3></li>
-               <li><h3>Out of service</h3></li>
-               <li><h4><strong><font color="red">Resumes: 12:10am</font></strong></h4></li>
+               <li class="left"><h2>4</h2><h4><font color="red">Out of service</font></h4></li>
+               <li class="center"><h3>Cottage Grove</h3></li>
+               <li class="right"><h3><font color="red">Resumes: 12:10am</font></h3></li>
            </ul>
 
            <ul class="container-bus-list">
-             <li><h2><strong>20</strong></h2></li>
-             <li><h3><s>Madison</s></h3></li>
-             <li><h3>Out of service</h3></li>
-             <li><h4><strong><font color="red">Resumes: 12:10am</font></strong></h4></li>
+               <li class="left"><h2>20</h2><h4><font color="red">Out of service</font></h4></li>
+               <li class="center"><h3>Madison</h3></li>
+               <li class="right"><h3><font color="red">Resumes: 12:10am</font></h3></li>
            </ul>
 
            <ul class="container-bus-list">
-                <li><h2><strong>157</strong></h2></li>
-                <li><h3><s>Streeterville/
-                  <br> Taylor</s></h3></li>
-                <li><h3>Out of service</h3></li>
-                <li><h4><font color="red">Resumes: 6:00am</font></h4></li>
+               <li class="left"><h2>157</h2><h4><font color="red">Out of service</font></h4></li>
+               <li class="center"><h3>Streeterville/Taylor</h3></li>
+               <li class="right"><h3><font color="red">Resumes: 6:00am</font></h3></li>
             </ul>
-
     </section>
   </body>
 </html>
