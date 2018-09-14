@@ -22,7 +22,6 @@ body {
   background-color: rgba(90, 200, 250, 0.4);
   margin: 0 auto;
   width: 420px;
-  margin-top: 10px;
   padding-top: 20px;
 }
 
@@ -44,8 +43,8 @@ body {
   margin: 0 auto;
   padding-left: 140px;
   color: orange;
-  font-size: 190%;
-  font-weight: 600;
+  font-size: 280%;
+  font-weight: 800;
   font-style: italic;
 }
 
@@ -73,27 +72,26 @@ body {
   background-color: #ffffff;
   color: #FF9500;
   margin:0 auto;
-  width: 420px;
-  padding: 22px 0px 22px 0px;
   border-bottom: 0.5px solid #BCBBC1;
 }
 
 .container-bus-list {
   background-color: #ffffff;
-  border-bottom: 0.5px solid #BCBBC1;
+  border-bottom: 0.25px solid #BCBBC1;
   line-height: 120%;
+  text-align: center;
 }
 
 .left {
-  width: 5%;
+  width: 24%;
 }
 
 .center {
-  width: 75%;
+  width: 50%;
 }
 
 .right {
-  width: 15%;
+  width: 20%;
 }
 
 ul {
@@ -103,46 +101,51 @@ ul {
 
 li {
   display: inline-block;
-  padding: 1px;
+  padding: 6px;
 }
 
 
 h1 {
- font-size: 140%;
- font-weight: 400;
+ font-size: 180%;
+ font-weight: 500;
+ text-align: center;
+ padding: 4px 4px 4px 4px;
 }
 
 h2 {
-  font-size: 125%;
-  font-weight: 800;
+  font-size: 130%;
+  font-weight: 900;
 }
 
 h3 {
-  font-size: 100%;
-  font-weight: 600;
+  font-size: 120%;
+  font-weight: 100;
+  padding-top: 2px;
 }
 
 h4 {
-  font-size: 55%;
-  font-weight: 400;
-  text-transform: uppercase;
+  font-size: 75%;
+  font-weight: 100;
+  padding-top: 3px;
   font-style: italic;
-  color: green;
 }
 
 h5 {
-  font-size: 60%;
-  font-style: italic;
+  font-size: 94%;
   text-align: center;
-  font-weight: 200;
-  padding-top: 8px;
+  font-style: italic;
+  font-weight: 100;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  padding-top: 6px;
   padding-bottom: 4px;
-  color: blue;
+  color: brown;
 }
 
 h6 {
-  font-size: 70%;
+  font-size: 75%;
+  font-weight: 100;
+  padding-top: 3px;
   font-style: italic;
-  text-align: center;
-  color: blue;
-}
+  color: green;
+  }
